@@ -3,7 +3,7 @@
     "version": "1.4.2",
     "description": "Scroller for DataTables with styling for [Semantic UI](http://semantic-ui.com/)",
     "files": [
-        "css/scroller.semanticui.css"
+        "css/**/*.css"
     ],
     "main": "./js/scroller.semanticui.js",
     "keywords": [
