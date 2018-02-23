@@ -3,9 +3,10 @@
     "version": "1.4.4",
     "description": "Scroller for DataTables with styling for [Semantic UI](http://semantic-ui.com/)",
     "files": [
-        "css/**/*.css"
+        "css/**/*.css",
+        "js/**/*.js"
     ],
-    "main": "./js/scroller.semanticui.js",
+    "main": "js/scroller.semanticui.js",
     "keywords": [
         "virtual scrolling",
         "DataTables",
@@ -24,5 +25,6 @@
         "jquery": ">=1.7",
         "datatables.net-se": "^1.10.15",
         "datatables.net-scroller": "1.4.4"
-    }
+    },
+    "style": "css/scroller.semanticui.css"
 }
