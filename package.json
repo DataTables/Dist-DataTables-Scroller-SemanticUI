@@ -1,6 +1,6 @@
 {
     "name": "datatables.net-scroller-se",
-    "version": "1.4.4",
+    "version": "1.5.0",
     "description": "Scroller for DataTables with styling for [Semantic UI](http://semantic-ui.com/)",
     "files": [
         "css/**/*.css",
@@ -24,7 +24,7 @@
     "dependencies": {
         "jquery": ">=1.7",
         "datatables.net-se": "^1.10.15",
-        "datatables.net-scroller": "1.4.4"
+        "datatables.net-scroller": "1.5.0"
     },
     "style": "css/scroller.semanticui.css"
 }
