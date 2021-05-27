@@ -1,30 +1,49 @@
 {
     "name": "datatables.net-scroller-se",
+    "description": "Scroller for DataTables with styling for [SemanticUI](https://semantic-ui.com/)",
+    "main": "js/scroller.semanticui.js",
+    "style": "css/scroller.semanticui.css",
     "version": "2.0.3",
-    "description": "Scroller for DataTables with styling for [Semantic UI](http://semantic-ui.com/)",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
-    "main": "js/scroller.semanticui.js",
     "keywords": [
-        "virtual scrolling",
-        "DataTables",
+        "Scroller",
+ "Virtual Scrolling",
+        "Semantic",
+ "SemanticUI",
+ "Semantic UI",
+        "Datatables",
         "jQuery",
         "table",
-        "Semantic UI"
+        "filter",
+        "sort"
     ],
-    "homepage": "https://datatables.net",
-    "bugs": "https://datatables.net/forums",
-    "license": "MIT",
+    "dependencies": {
+        "datatables.net-scroller": ">=2.0.3",
+        "datatables.net-se": ">=1.10.24",
+        "jquery": ">=1.7"
+    },
+    "moduleType": [
+        "globals",
+        "amd",
+        "node"
+    ],
+    "ignore": [
+        "composer.json",
+        "datatables.json",
+        "package.json"
+    ],
     "author": {
         "name": "SpryMedia Ltd",
         "url": "http://datatables.net"
     },
-    "dependencies": {
-        "jquery": ">=1.7",
-        "datatables.net-se": "^1.10.15",
-        "datatables.net-scroller": "2.0.3"
-    },
-    "style": "css/scroller.semanticui.css"
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DataTables/Dist-DataTables-Scroller-SemanticUI.git"
+    }
 }
