@@ -4,17 +4,17 @@
     "main": "js/scroller.semanticui.js",
     "style": "css/scroller.semanticui.css",
     "types": "./types/scroller.semanticUI.d.ts",
-    "version": "2.0.3",
+    "version": "2.0.4",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
     "keywords": [
         "Scroller",
- "Virtual Scrolling",
+        "Virtual Scrolling",
         "Semantic",
- "SemanticUI",
- "Semantic UI",
+        "SemanticUI",
+        "Semantic UI",
         "Datatables",
         "jQuery",
         "table",
@@ -22,9 +22,9 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-scroller": ">=2.0.3",
-        "datatables.net-se": ">=1.10.24",
-        "jquery": ">=1.7"
+        "jquery": ">=1.7",
+        "datatables.net-se": "^1.10.15",
+        "datatables.net-scroller": "2.0.4"
     },
     "moduleType": [
         "globals",
