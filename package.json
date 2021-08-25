@@ -4,17 +4,17 @@
     "main": "js/scroller.semanticui.js",
     "style": "css/scroller.semanticui.css",
     "types": "./types/scroller.semanticUI.d.ts",
-    "version": "2.0.4",
+    "version": "2.0.5",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
     "keywords": [
         "Scroller",
- "Virtual Scrolling",
+        "Virtual Scrolling",
         "Semantic",
- "SemanticUI",
- "Semantic UI",
+        "SemanticUI",
+        "Semantic UI",
         "Datatables",
         "jQuery",
         "table",
