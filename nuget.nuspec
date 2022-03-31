@@ -11,7 +11,7 @@
         <tags>Scroller  Virtual Scrolling  Semantic  SemanticUI  Semantic UI  Datatables jQuery table</tags>
         <dependencies>
             <dependency id="datatables.net-scroller" version="2.0.5"/>
-            <dependency id="datatables.net-se" version="1.11.3"/>
+            <dependency id="datatables.net-se" version="1.11.5"/>
         </dependencies>
         <contentFiles>
             <files include="**/*" buildAction="Content"/>
@@ -26,8 +26,6 @@
         <file src="css/scroller.semanticui.css" target="contentFiles\any\any\wwwroot\css"/>
         <file src="css/scroller.semanticui.min.css" target="content\Content"/>
         <file src="css/scroller.semanticui.min.css" target="contentFiles\any\any\wwwroot\css"/>
-        <file src="types/scroller.semanticUI.d.ts" target="content\Scripts"/>
-        <file src="types/scroller.semanticUI.d.ts" target="contentFiles\any\any\wwwroot\js"/>
     </files>
 </package>
 
