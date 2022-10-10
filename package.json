@@ -2,12 +2,14 @@
     "name": "datatables.net-scroller-se",
     "description": "Scroller for DataTables with styling for [SemanticUI](https://semantic-ui.com/)",
     "main": "js/scroller.semanticui.js",
+    "module": "js/scroller.semanticui.mjs",
     "style": "css/scroller.semanticui.css",
     "types": "./types/scroller.semanticUI.d.ts",
     "version": "2.0.7",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
+        "js/**/*.mjs",
         "types/**/*.d.ts"
     ],
     "keywords": [
