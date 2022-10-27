@@ -4,7 +4,7 @@
     "main": "js/scroller.semanticui.js",
     "module": "js/scroller.semanticui.mjs",
     "style": "css/scroller.semanticui.css",
-    "types": "./types/scroller.semanticUI.d.ts",
+    "types": "./types/types.d.ts",
     "version": "2.0.7",
     "files": [
         "css/**/*.css",
