@@ -1,4 +1,3 @@
-
 /*! Semanic UI styling wrapper for Scroller
  * © SpryMedia Ltd - datatables.net/license
  */
@@ -29,10 +28,9 @@
 				require('datatables.net-se')(root, $);
 			}
 
-			if ( ! $.fn.dataTable ) {
+			if ( ! $.fn.dataTable.Scroller ) {
 				require('datatables.net-scroller')(root, $);
 			}
-
 
 			return factory( $, root, root.document );
 		};
