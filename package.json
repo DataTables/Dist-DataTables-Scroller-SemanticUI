@@ -5,7 +5,7 @@
     "module": "js/scroller.semanticui.mjs",
     "style": "css/scroller.semanticui.css",
     "types": "./types/scroller.semanticui.d.ts",
-    "version": "2.1.1",
+    "version": "2.2.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -14,10 +14,10 @@
     ],
     "keywords": [
         "Scroller",
- "Virtual Scrolling",
+        "Virtual Scrolling",
         "Semantic",
- "SemanticUI",
- "Semantic UI",
+        "SemanticUI",
+        "Semantic UI",
         "Datatables",
         "jQuery",
         "table",
