@@ -5,7 +5,7 @@
     "module": "js/scroller.semanticui.mjs",
     "style": "css/scroller.semanticui.css",
     "types": "./types/scroller.semanticui.d.ts",
-    "version": "2.4.2",
+    "version": "2.4.3",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -25,7 +25,7 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-scroller": "2.4.2",
+        "datatables.net-scroller": "2.4.3",
         "datatables.net-se": "1.11 - 2",
         "jquery": ">=1.7"
     },
