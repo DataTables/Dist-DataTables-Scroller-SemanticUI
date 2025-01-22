@@ -1,6 +1,6 @@
 # Scroller for DataTables with styling for [SemanticUI](https://semantic-ui.com/)
 
-This package contains a built distribution of the [Scroller extension](https://datatables.net/extensions/scroller) for [DataTables](https://datatables.net/) with styling for [SemanticUI](https://semantic-ui.com/).
+This is the distribution package for the [Scroller extension](https://datatables.net/extensions/scroller) for [DataTables](https://datatables.net/) with styling for [SemanticUI](https://semantic-ui.com/).
 
 Scroller is a virtual rendering plug-in for DataTables which allows large datasets to be drawn on screen very quickly. Virtual rendering means is that only the visible portion of the table is drawn, while the scrolling container gives the visual impression that the whole table is visible, allowing excellent browser performance.
 
@@ -9,42 +9,37 @@ Scroller is a virtual rendering plug-in for DataTables which allows large datase
 
 ### Browser
 
-For inclusion of this library using a standard `<script>` tag, rather than using this package, it is recommended that you use the [DataTables download builder](//datatables.net/download) which can create CDN or locally hosted packages for you, will all dependencies satisfied.
+To use DataTables with a simple `<script>` tag, rather than using this package, it is recommended that you use the [DataTables download builder](//datatables.net/download) which can create CDN or locally hosted packages for you, will all dependencies satisfied.
 
 ### npm
 
+For installation via npm, yarn and other similar package managers, install this package with your package manager - e.g.:
+
 ```
+npm install datatables.net-se
 npm install datatables.net-scroller-se
 ```
 
-ES3 Syntax
-```
-var $ = require( 'jquery' );
-var dt = require( 'datatables.net-scroller-se' )( window, $ );
-```
+Then, to load and initialise the software in your code use:
 
-ES6 Syntax
 ```
+import DataTable from 'datatables.net-se';
 import 'datatables.net-scroller-se'
-```
 
-### bower
-
+new DataTable('#myTable', {
+    // initalisation options
+});
 ```
-bower install --save datatables.net-scroller-se
-```
-
 
 
 ## Documentation
 
-Full documentation and examples for Scroller can be found [on the website](https://datatables.net/extensions/scroller).
+Full documentation and examples for Scroller can be found [on the DataTables website](https://datatables.net/extensions/scroller).
 
 
 ## Bug / Support
 
 Support for DataTables is available through the [DataTables forums](//datatables.net/forums) and [commercial support options](//datatables.net/support) are available.
-
 
 ### Contributing
 
