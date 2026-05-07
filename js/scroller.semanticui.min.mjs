@@ -1,4 +1,4 @@
-/*! Semanic UI styling wrapper for Scroller
- * © SpryMedia Ltd - datatables.net/license
+/*! Scroller Fomantic styling 3.0.0-beta.1 for DataTables
+ * Copyright (c) SpryMedia Ltd - datatables.net/license
  */
-import jQuery from"jquery";import DataTable from"datatables.net-se";import Scroller from"datatables.net-scroller";let $=jQuery;export default DataTable;
+import DataTable from"datatables.net-se";import Scroller from"datatables.net-scroller";export default DataTable;
