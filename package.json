@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-scroller-se",
     "description": "Scroller for DataTables with styling for [SemanticUI](https://semantic-ui.com/)",
-    "main": "js/scroller.semanticui.js",
-    "module": "js/scroller.semanticui.mjs",
-    "style": "css/scroller.semanticui.css",
+    "main": "./js/scroller.semanticui.js",
+    "module": "./js/scroller.semanticui.mjs",
+    "style": "./css/scroller.semanticui.css",
     "types": "./types/scroller.semanticui.d.ts",
     "version": "3.0.0",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "Scroller",
@@ -37,5 +36,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/Scroller.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/scroller.semanticui.d.ts",
+            "import": "./js/scroller.semanticui.mjs",
+            "default": "./js/scroller.semanticui.mjs",
+            "require": "./js/scroller.semanticui.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/scroller.semanticui.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }

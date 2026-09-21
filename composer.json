@@ -1,6 +1,6 @@
 {
     "name": "datatables.net/datatables.net-scroller-se",
-    "description": "Scroller for DataTables with styling for [SemanticUI](https://semantic-ui.com/)",
+    "description": "Scroller for DataTables with styling for SemanticUI",
     "support": {
         "forum": "https://datatables.net/forums",
         "source": "https://github.com/DataTables/Dist-DataTables-Scroller-SemanticUI"
