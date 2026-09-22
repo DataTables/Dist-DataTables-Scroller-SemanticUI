@@ -5,7 +5,7 @@
     "module": "./js/scroller.semanticui.mjs",
     "style": "./css/scroller.semanticui.css",
     "types": "./types/scroller.semanticui.d.ts",
-    "version": "3.0.0",
+    "version": "3.1.0",
     "files": [
         "js",
         "css",
@@ -23,8 +23,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-scroller": "3.0.0",
-        "datatables.net-se": "^3"
+        "datatables.net-scroller": "3.1.0",
+        "datatables.net-se": "^3.1"
     },
     "author": {
         "name": "SpryMedia Ltd",
