@@ -40,9 +40,10 @@
     "exports": {
         ".": {
             "types": "./types/scroller.semanticui.d.ts",
+            "style": "./css/scroller.semanticui.css",
             "import": "./js/scroller.semanticui.mjs",
-            "default": "./js/scroller.semanticui.mjs",
-            "require": "./js/scroller.semanticui.js"
+            "require": "./js/scroller.semanticui.js",
+            "default": "./js/scroller.semanticui.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
